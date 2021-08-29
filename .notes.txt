@@ -3,3 +3,16 @@ Dataset: https://www.kaggle.com/datasnaek/chess
 Github repo: https://github.com/cbennudr/ds_chess
 Prediction: winner of a given game
 Objective: get good prediction accuracy and productionize model
+
+EDA discoveries:
+- Van't Krujis opening is the most common likely due to the fact that it is a single move, e3
+- Sicilian Defense opening is second most common opening; it is only 2 moves, e4 followed by d5
+- White's rating is higher on average (by about 8) than black's
+- Lowest rating in dataset is 784 and highest is 2723
+- It will usually take black more turns to win than it will white: 57.8 avg vs 60.7 avg and draws go on for many more moves than wins
+- White's rating and black's rating are not as correlated as i would have thought
+- By far the most played time increment is 10+0 
+- One player has 5 of their games in the dataset
+- About 4 times as many games are rated than unrated
+- Most games end due to a resignation
+- 
