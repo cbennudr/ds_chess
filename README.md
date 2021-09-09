@@ -1,9 +1,9 @@
-# Chess Game Outcome Predictor: Project Overview:
+# Chess Game Outcome Predictor: Project Overview
 * Created a tool that predicts the winner (accuracy of .88) of a chess game
 * Explored and analyzed a 20,000+ row dataset
 * Found optimal hyperparameters for KNN, decision tree, naive bayes, random forest, logistic regression, and gradient boost classifiers using GridSearchCV
 
-# Packages and versions used:
+# Packages and versions used
 * Python 3.9.6
 * Pandas 1.3.1
 * Numpy 1.19.5
