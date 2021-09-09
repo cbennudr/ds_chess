@@ -28,5 +28,8 @@ The features included in the dataset were the following:
 * Black's ID: The player with the black pieces' lichess username
 * Black's rating: The ELO rating of the player with the black pieces
 * Moves: The algebraic notation of the moves played in the game
+* Opening ECO: ECO (classification system for any opening moves) of the opening played
+* Opening name: Actual name of the opening played 
+* Opening ply: The number of moves in the opening
 
 # Exploration
