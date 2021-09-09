@@ -33,3 +33,22 @@ The features included in the dataset were the following:
 * Opening ply: The number of moves in the opening
 
 # Exploration
+
+
+# Modeling
+
+
+# Performance
+The gradient boost with n_classifers set to 1000 performed the best with 88% accuracy, however, it has a long fit time.
+* KNN: .48
+* Decision Tree: .65
+* Naive Bayes: .5
+* Random Forest: .68
+* Logistic Regression: .5
+* Gradient Boost: .88
+
+# Productionization
+
+
+
+
