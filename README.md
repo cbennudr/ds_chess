@@ -33,7 +33,7 @@ The features included in the dataset were the following:
 * Opening ply: The number of moves in the opening
 
 # Exploration
-<img src="https://github.com/cbennudr/ds_chess/tree/main/Plots/winnerBarplot.png">
+![](Plots/winnerBarplot.png)
 
 # Modeling
 
