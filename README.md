@@ -32,7 +32,7 @@ The features included in the dataset were the following:
 * Opening name: Actual name of the opening played 
 * Opening ply: The number of moves in the opening
 
-# Exploration
+# Exploration Highlights
 | ![](Plots/winnerBarplot.png) |
 |:--:| 
 | *Barplot showing the number of games that ended with white winning, black winning, or a draw* |
@@ -52,6 +52,17 @@ The opening ECO with the highest average rated players (1870) was E10 which is t
 |:--:| 
 | *Heatmap showing the correlations between the categories with numerical values in the dataset* |
 This heatmap shows many obvious strong correlations such as that between when the game started and ended, the average rating and white's rating, average rating and black's rating. Interestinly, the rating of black has near no correlation with who won the game whereas white's rating has a weak correlation but not nearly as much as black's. Black rating and white rating are not quite as correlated as I would have guessed before seeing this plot. There is also a medium correlation between the average rating of the players in the games and the opening ply (the number of moves in the opening); this is likely because players with higher rating (and therefore better players) will have those longer openings memorized and can play them whereas players with lower rating most likely do not have many/any openings with more than a couple moves memorized.
+
+| Misc. insights |
+| ----------------- |
+| Van't Krujis opening is the most commonly played; this is likely due to the fact that it is a single move, e3 |
+| White's rating is higher on average (by about 8) than black's |
+| The lowest rating in dataset is 784 and highest is 2723 |
+| It will usually take black more turns to win than it will white: 57.8 avg vs 60.7 avg and draws go on for many more moves than wins |
+| One player has 5 of their games in the dataset |
+| Most games end due to a resignation |
+| The most common rating for both black and white is 1500 because Lichess assigns this rating to all new players before they have completed their placement games |
+| The game with the most turns played had 151 turns and was in the 20+11 time increment |
 
 # Modeling
 
