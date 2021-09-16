@@ -34,16 +34,22 @@ The features included in the dataset were the following:
 
 # Exploration
 | ![](Plots/winnerBarplot.png) |
+|:--:| 
 | *Barplot showing the number of games that ended with white winning, black winning, or a draw* |
+This barplot clearly shows that white wins more frequently than black and draws are much less common than the game ending in a checkmate, resignation, or a player running out of time
 
-![](Plots/incrementValCounts.png)
-*Barplot showing the number of games played with the 40 most popular time increments*
+| ![](Plots/incrementValCounts.png) |
+|:--:| 
+| *Barplot showing the number of games played with the 40 most popular time increments* |
 
-![](Plots/openingEcoAvgRating.PNG)
-*Table displaying the openings with more than 20 games in which they were played that have the highest average rating for white*
 
-![](Plots/heatmap.png)
-*Heatmap showing the correlations between the categories with numerical values in the dataset*
+| ![](Plots/openingEcoAvgRating.PNG) |
+|:--:| 
+| *Table displaying the openings with more than 20 games in which they were played that have the highest average rating for white* |
+
+| ![](Plots/heatmap.png) |
+|:--:| 
+| *Heatmap showing the correlations between the categories with numerical values in the dataset* |
 
 
 # Modeling
