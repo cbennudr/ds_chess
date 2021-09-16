@@ -34,6 +34,17 @@ The features included in the dataset were the following:
 
 # Exploration
 ![](Plots/winnerBarplot.png)
+*Barplot showing the number of games that ended with white winning, black winning, or a draw*
+
+![](Plots/incrementValCounts.png)
+*Barplot showing the number of games played with the 40 most popular time increments*
+
+![](Plots/openingEcoAvgRating.PNG)
+*Table displaying the openings with more than 20 games in which they were played that have the highest average rating for white*
+
+![](Plots/heatmap.png)
+*Heatmap showing the correlations between the categories with numerical values in the dataset*
+
 
 # Modeling
 
