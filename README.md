@@ -33,8 +33,8 @@ The features included in the dataset were the following:
 * Opening ply: The number of moves in the opening
 
 # Exploration
-![](Plots/winnerBarplot.png)
-*Barplot showing the number of games that ended with white winning, black winning, or a draw*
+| ![](Plots/winnerBarplot.png) |
+| *Barplot showing the number of games that ended with white winning, black winning, or a draw* |
 
 ![](Plots/incrementValCounts.png)
 *Barplot showing the number of games played with the 40 most popular time increments*
